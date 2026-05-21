@@ -24,7 +24,7 @@ function HomePage() {
             Get Started
           </button>
 
-          <button className="secondary-btn">
+          <button className="primary-btn">
             Learn More
           </button>
         </div>

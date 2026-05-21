@@ -193,15 +193,23 @@ body {
 COURSES FORMATTING CONTAINER
 =================================*/
 
-.courses-container {
+/*.courses-container {
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+}*/
 
+.courses-container { 
+    background: white; 
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    border-radius: 14px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.01); 
+  }
 .courses-container h2 {
   text-align: center;
   margin-bottom: 25px;
