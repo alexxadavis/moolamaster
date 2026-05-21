@@ -7,9 +7,10 @@ export default function Courses() {
     'Protecting Against Identity Theft and Scams',
   ]
 
-  return (
+return (
+  <div className="courses-page">
     <div className="courses-container">
-      <h1>Available Courses</h1>
+      <h1 className="courses-title">Available Courses</h1>
 
       <ul className="courses-list">
         {courses.map((course, index) => (
@@ -19,5 +20,6 @@ export default function Courses() {
         ))}
       </ul>
     </div>
-  )
+  </div>
+) 
 }
